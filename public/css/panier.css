@@ -1,0 +1,56 @@
+.indickx{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 90px;
+    margin-top: 60px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panier1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 80px;
+    width: 819px;
+    height: 431px;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+.index{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    width: 729px;
+    gap: 30px;
+
+}
+.nom{
+    color: #615e5e;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: bold;
+    font-weight: 800;
+    line-height: normal;
+}
+.hr{
+    background-color: rgb(6, 245, 26);
+    padding: 1px;
+}
+.phr{
+    margin-bottom: 0px;
+}
+.indickx{}
+.indickx{}
+.indickx{}
+.indickx{}
+.indickx{}
+.indickx{}
+.indickx{}
+.indickx{}
+.indickx{}
+.indickx{}
+.indickx{}
+.indickx{}

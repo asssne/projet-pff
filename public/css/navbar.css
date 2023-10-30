@@ -1,0 +1,187 @@
+.body{
+    background-color: rgb(246, 245, 244);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter',sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+.carte1{
+    background: url(../images/carte1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 240px;
+    text-align: center;
+}
+.input1 input{
+    outline: none;
+    padding: 14px 50px;
+    background: url(../icones/search1.png)no-repeat white top 200px;;
+
+}
+.input1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.input1 a{
+    padding: 15px 30px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+
+.ville_produit{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 18px;
+
+}
+
+.produit{
+    background-color: white;
+    border-radius: 8px;
+}
+.produit img{
+    width: 100%;
+    height: 200px;
+}
+.contenu{
+    margin-left: 18px;
+}
+.contenu p{
+    color: #615C5C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+}
+.contenu h2{
+    color: #0A0909;
+    font-family: 'Inter' sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 14px;
+
+}
+ .span1 a{
+    float: left;
+    margin-left: 2px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.span2 a{
+    background-color: blue;
+    color: white;
+    float: right;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin-right: 18px;
+    margin-bottom: 20px;
+
+
+}
+ .span2 a:hover{
+    background-color: rgb(250, 251, 251);
+    color: rgb(70, 5, 248);
+    border: 1px solid blue;
+}
+.span1 a:hover{
+    color: rgb(245, 4, 4);
+    text-decoration: none;
+}
+.video{
+padding-top: 40px;
+padding-bottom: 50px;
+}
+h1{
+    color: #000;
+    font-family: 'Inter'sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.ville{
+    margin-bottom: 60px;
+}
+
+.slider-1{
+    margin: 0px auto;
+    overflow: hidden;
+    border: 0px solid white;
+    margin-top: 30px;
+    }
+
+    .slider-1 .slider{
+    display: grid;
+    grid-template-columns: repeat(100,1fr);
+    animation: slider-1 12s infinite ease-in-out;
+    /* flex-direction: row-reverse;*/
+    width: 100%;
+    gap: 16px;
+    margin-bottom: 100px;
+    }
+    .slider-1 .slide{
+    padding: 20px 0;
+    width: 100%;
+    color: rgb(12, 12, 12);
+    }
+    .slider-1 .slider .slide{
+    width: 100%;
+    background-color: aqua;
+    border-radius: 8px;
+    height: 260px;
+    }
+    .slider-1 .slider .slide img{
+    margin: 0px;
+    }
+    .slider-1 .slider .slide p{
+    text-align: center;
+    background-color: aqua;
+    margin-bottom: 0px;
+    border-radius: 8px;
+    }
+    @keyframes slider-1{
+        0% ,
+        20%{
+            transform: translateX(0);
+        }
+        25%,
+        45%{
+            transform: translateX(-100%);
+        }
+        50%,
+        70%{
+            transform: translateX(-200%);
+        }
+        75%,
+        95%{
+            transform: translateX(-300%);
+        }
+        100%{
+            transform: translateX(-400%);
+        }
+
+    }
+    @media screen and (min-width: 250px) {
+        .ville_produit{
+            grid-template-columns: repeat(3,1fr);
+            gap: 18px;
+
+        }
+    }

@@ -1,0 +1,197 @@
+body{
+    margin: 0px;
+    background: #F0EDED;
+
+}
+.tableau{ 
+    display: flex;
+}
+.tableau1{
+    width: 329px;
+    height: 1100px;
+    flex-shrink: 0;
+    border: 1px solid #BBB5B5;
+    background: #C2BABA;
+}
+.tableau1 .logo img{
+    width: 50px;
+    height: 50px;
+    margin: 20px 0px 20px 70px;
+    
+}
+.tableau1 p{
+    color: #000;
+    text-align: center;
+    font-family: 'Inter'sans-serif;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: normal; 
+    margin: 0px; 
+    margin-left: 0px;  
+    float: left;
+}
+.tableau1 .logo .icone img{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    margin-top: 20px;   
+}
+.schemat{
+    display: flex;
+    margin-top: 20px;
+}
+.schemat .pl{
+    color: blue;
+}
+.schemat .pll{
+    color: rgb(6, 6, 6);
+}
+
+.container1{
+    width: 900px;
+    height: 790px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background:white;
+    margin:30px 70px 70px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: flex;
+    width: 708px;
+    height: 56px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    outline: none;
+}
+.button{
+    display: flex;
+    width: 708px;
+    height: 56px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #AFAEAE;
+    background: #44FA6C;
+    margin-top: 40px;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 700;
+}
+.container1 h1{
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+.container1 h2{
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2px;
+    padding-top: 20px;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    height: 94px;
+    flex-shrink: 0;
+    text-align: right;
+    align-items: end;
+    justify-content: right;
+    background-color:white;
+    width: 1031px;
+    height: 97px;
+    flex-shrink: 0;
+}
+.menu-elema h2{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.menu-elema img{
+    width: 40px;
+    height: 40px;
+    float: right;
+
+}
+.menu-elema{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+.schemat{
+    color: #F11;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.icones{
+    margin-top: 50px;
+    }
+.iconss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #44FA6C;
+}
+.tableau1 .icon{
+    background-color: #F11;
+    text-align: left;
+
+}
+.inputfin{
+    border: 1px solid rgb(92, 91, 91);
+    display: flex;
+    width: 708px;
+    height: 56px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    outline: none;
+
+}
+select{
+    display: flex;
+    width: 708px;
+    height: 56px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    background-color:white;
+    border-radius: 8px;
+    flex-shrink: 0;
+    outline: none;
+
+}
+.tableau{}

@@ -1,0 +1,401 @@
+@import
+url("https://fonts.googleapis.com/css?family=Inter:700,900,400");
+.div1{
+    background: rgba(41, 95, 246, 0.65);
+}
+.MENU_COOL ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    margin: 0px 50px ;
+    height: 69px;
+}
+.MENU_COOL ul li a{
+    text-decoration: none;
+    color: black;
+}
+.MENU_COOL ul li {
+    list-style: none;
+}
+.div2{
+    background: url(images/imagereserve.png);
+    
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    padding: 10%;
+}
+h2{
+    color: blue;
+    margin-top: 100px;
+}
+.logo{
+    width: 70px;
+    padding: 20px;
+    padding-left: 0px;
+    margin-right: 100px;
+    }
+input{
+    font-size: 20px;
+    align-items: center;
+    height: 50px;
+    width: 100%px;
+    margin-left: 400px;
+
+
+}
+h1{
+    text-align: center;
+    color: rgb(248, 246, 246);
+}
+.page-de-reservation{
+    align-items: center;
+    
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 2054px;
+    width: 1371px;
+
+}
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+.page-de-reservation .flex-row-3{
+    align-items: flex-start;
+    display: flex;
+}
+.flex-row-1{
+    margin-left: 170px;
+    margin-top: 11px;
+    min-width: 1071px;
+}
+.flex-row-2{
+    gap: 20px;
+    height: 860px;
+    min-width: 522px;
+}
+.page-de-reservation .flex-col-5{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 855px;
+}
+.flex-col-2{
+    align-self: flex-end;
+    width: 252px;
+}
+.prix-10000jr{
+    margin-top: 21px;
+}
+.page-de-reservation .prix-1{
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 19px;
+    white-space: nowrap;
+}
+.prix{
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 19px;
+    white-space: nowrap;
+}
+.chambre{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 15px;
+    min-height: 19px;
+    white-space: nowrap;
+
+}
+.rectangle-1{
+    height: 270px;
+    margin-left: 2px;
+    margin-top: 74px;
+    object-fit: cover;
+    width: 250px;
+}
+.flex-col-1{
+   
+    width: 250px;
+}
+.prix-20000jr{
+    margin-top: 16px;
+}
+.rectangle{
+    height: 270px;
+    margin-top: 79px;
+    object-fit: cover;
+    width: 250px;
+}
+.flex-col-3{
+    margin-left: 16px;
+    width: 252px;
+}
+.prix-15000jr{
+    margin-top: 12px;
+}
+.page-de-reservation .chambre-double{
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 19px;
+    white-space: nowrap;
+}
+.chambre-double-confort{
+    margin-left: 2px;
+    margin-top: 19px;
+}
+.rectangle-2{
+    height: 270px;
+    margin-left: 2px;
+    margin-top: 79px;
+    object-fit: cover;
+    width: 250px;
+}
+.flex-col-4{
+    margin-left: 20px;
+    width: 261px;
+}
+.chambre-lits-jumeaux-classique{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 20px;
+    min-height: 19px;
+    white-space: nowrap;
+    
+}
+.prix-25000jr{
+    margin-top: 11px;
+}
+.flex-col{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 1006px;
+    width: 1371px;
+}
+.overlap-group1{
+    height: 610px;
+    position: relative;
+    width: 1371px;
+}
+.hotel-radisson-vous{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    left: 271px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 200px;
+}
+.ellipse-69{
+    background-color: brown;
+    border-radius: 14.14px/10.61px;
+    height: 21px;
+    margin-bottom: 0.71px;
+    width: 28px;
+}
+.ellipse-container{
+    height: 82px;
+    position: relative;
+    width: 64px;
+}
+.ellipse-70{
+    background-color: bisque;
+    border-radius: 13.64px/10.61px;
+    height: 21px;
+    left: 37px;
+    position: absolute;
+    top: 31px;
+    width: 27px;
+
+}
+.ellipse-50-stroke{
+    height: 82px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(-180deg);
+    width: 53px;
+}
+.group-1{
+    align-items: flex-start;
+    display: flex;
+    height: 17px;
+    left: 715px;
+    min-width: 522px;
+    position: absolute;
+    top: 42px;
+}
+.place{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 156px;
+    min-height: 17px;
+}
+.accueil{
+    background-color: brown;
+    letter-spacing:0 ;
+    line-height: normal;
+    min-height: 17px;
+    min-width: 52px;
+}
+.reservation{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 169px;
+    margin-left: 169px;
+    min-height: 17px;
+    min-width: 83px;
+
+
+}
+.rectangle-1-1{
+    background-color: blue;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1371;
+}
+.page-de-reservation .frame{
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+.frame-2{
+    background-color: antiquewhite;
+    border: 1px solid;
+    border-color: black;
+    height: 62px;
+    left: 506px;
+    position: absolute;
+    top: 292px;
+    width: 342px;
+}
+.rechercher-une-chambre{
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-12);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+.inter-bold-jaffa-166px{
+    color:red;
+}
+.inter-bold-jaffa-16px{
+    color:blue;
+}
+.rectangle-14{
+    height: 512px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 98px;
+    width: 1371;
+
+}
+.flex-row{
+    align-items: flex-start;
+    display: flex;
+    margin-right: 200px;
+    gap: 0px;
+    margin-left: 150px;
+    margin-top: 0px;
+    min-width: 107px;
+}
+.rectangle-7{
+    height: 270px;
+    margin-left: 20px;
+    object-fit: cover;
+    width:250px ;
+}
+.rectangle-4{
+    height: 270px;
+    object-fit: cover;
+    width: 250px;
+
+}
+.rectangle-6{
+    height: 270px;
+    margin-left: 18px;
+    object-fit: cover;
+    width: 250px;
+
+}
+.rectangle-5{
+    height: 270px;
+    margin-left: 22px;
+    object-fit: cover;
+    width: 250px;
+}
+.chambre-container{
+    align-items: flex-start;
+    display: flex;
+    height: 24px;
+    margin-left: 12px;
+    margin-top: 15px;
+    min-width: 1071px;
+}
+.chambre-lits-jumeaux-classique-1{
+    align-self: flex-end;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 69px;
+    min-height: 19px;
+    min-width: 261px;
+    white-space: nowrap;
+}
+.chambre-quadruple-familiale{
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 19px;
+    min-width: 240px;
+    white-space: nowrap;
+}
+.chambre-double-deluxe{
+    margin-left: 30px;
+    min-width: 194px;
+}
+.chambre-double-confort-1{
+    align-self: flex-end;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 1px;
+    margin-left: 76px;
+    min-height: 19px;
+    min-width: 201px;
+    white-space: nowrap;
+    }
+    button{
+        display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 170px;
+height: 65px;
+left: 601px;
+top: 1840px;
+margin-top: 0px;
+background: #60D95E;
+border-radius: 10px;
+    }
+    button a{
+        text-decoration: none;
+        color: black;
+    }

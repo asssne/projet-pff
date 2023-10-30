@@ -1,0 +1,211 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter',sans-serif;}
+    .body{
+    background-color: rgb(240, 240, 238);
+
+    }
+.jombo{
+    display: flex;
+    width: 100%;
+    height: 586px;
+    flex-shrink: 0;
+    background: #D7D9DB;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.jombo1{
+    width: 1262px;
+    height: 449px;
+    margin-top: 65px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #F0EDED;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+}
+.jombo2{
+    background: url(../images/banier.png);
+    width: 1081px;
+    height: 141px;
+    flex-shrink: 0;
+    text-align: center;
+}
+.jombo2 p{
+    color: #FFF;
+    font-family: 'Inter' sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.jombo3{
+    width: 550px;
+    height: 94px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #5F5D5D;
+    background: #D7D9DB;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 260px;
+}
+.jombo3 a{
+    display: flex;
+    width: 150px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    border: 1px solid #716E6E;
+    background: rgb(227, 226, 226);
+    font-style: bold;
+    text-align: center;
+    font-family: 'Inter'sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: normal;
+}
+.jombo4{
+    width: 817px;
+    height: 116px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid #4F4D4D;
+    background: #D7D9DB;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left:140px;
+
+}
+.jombo4 select{
+    display: flex;
+    width: 230px;
+    height: 68px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-left: 24px;
+    border-radius: 50px;
+    border: 1px solid #716D6D;
+}
+.jombo4 input{
+    width: 205px;
+    height: 68px;
+    padding: 16px 56px;
+    align-items: center;
+    flex-shrink: 0;
+    outline: none;
+    border: 1px solid #716D6D;;
+    border-radius: 50px;
+    background: url(../icones/search-normal.svg)  no-repeat  rgb(227, 226, 226) 16px center;
+
+}
+.slider2{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    gap: 18px;
+}
+.dool{
+    border-radius: 6px;
+    background-color: white; 
+   border-radius: 8px;
+   width: 100%;
+}
+.dool img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 18px;
+}
+.dool p{
+    color: #615C5C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 18px;
+}
+h2{
+    margin-left: 18px;
+    color: #0A0909;
+    font-family: 'Inter' sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;      
+}
+.botton1 a{
+    text-decoration: none;
+    margin-left: 18px;
+    margin-bottom: 20px;
+    font-style: bold;
+    text-align: center;
+    font-family: 'Inter'sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: normal;
+}
+.botton2 a{
+    background-color: blue;
+    padding: 8px 20px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin-right: 18px;
+    margin-bottom: 20px;
+    font-style: bold;
+    text-align: center;
+    font-family: 'Inter'sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: normal;
+
+}
+h1{
+    color: #000;
+    font-family: 'Inter'sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.temoin img{
+    border-radius: 8px 8px 0px 0px;
+    border: rgb(251, 251, 252) 12px solid;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.foot{
+    margin-bottom: 100px;
+}

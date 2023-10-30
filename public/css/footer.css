@@ -1,0 +1,86 @@
+
+footer{
+    background: #4A4848;
+    color: white;
+}
+.liste_contacts{
+    display: flex;
+    gap: 100px;
+}
+.footer1{
+    display: flex;
+    gap: 200px;
+}
+.contact3 p{
+    color: #FFF;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+}
+.contact3 a{
+    border: 1px solid #FFF;
+    background: #F6E336;
+    display: flex;
+    width: 141px;
+    height: 50px;
+    padding:  14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.contact3 input{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    padding: 14px 50px;
+    align-items: center;
+    gap: 10px;
+    outline: none;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background: url(../icones/sms.png)no-repeat 16px center;
+    color: #FFFFFF;
+    
+}
+.contact4{
+    display: flex;
+    gap: 8px;
+}
+.contact2 p{
+    margin-bottom: 8px;
+    font-size: 12px;
+
+}
+.liste_contacts .pp{
+    color: #FFF;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+
+}
+.contacts p{
+    margin-bottom: 8px;
+    font-size: 12px;
+
+}
+.footerlogo {
+    padding-bottom: 3px;
+}
+.footerlogo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+@media screen and (max-width: 320px) {
+    .footer1{
+        display: none;
+    
+    }
+    
+}

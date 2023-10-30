@@ -1,0 +1,159 @@
+body{
+    margin: 0%;
+}
+.carte a{
+    text-decoration: none;
+}
+.carte{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 18px;
+}
+.service1{
+    display:grid;
+    justify-content: left;
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+}
+.service1 p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.service1 .riche:hover{
+    color: #2505f7;
+}
+.ajouter{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: right;
+}
+.ajouter img{
+    width: 30px;
+    height: 30px;
+}
+.ajouter p{
+ margin: 6px;
+}
+.container a{
+    text-decoration: none;
+ 
+}
+.service1 img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+.service1 .noting{
+    color: #6b6969;
+    text-align: left;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: bold;
+    font-weight: 500;
+    line-height: normal;
+}
+.service1 .bien{
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    width: 100%;
+}
+.service1 .bien p{
+    color: #6b6969;
+    text-align: left;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: bold;
+    font-weight: 500;
+}
+.service1 .bien a:hover{
+    color: #0bf213;
+    text-align: left;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 500;
+}
+.table{
+    width: 100%;
+    height: 4750px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.calendrier{
+    width: 100%;
+    display: flex;
+}
+.calendrier img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+
+}
+.calendrier p{
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+    
+}
+.messages{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+}
+.contenu1{
+    display: flex;
+}
+.contenu1 h5{
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+.contenu1 .date{
+    color: #4b4b4b;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.contenu2{
+    display: flex;
+    justify-content: right;
+}
+.contenu2 p{
+    color: #676565;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: normal;
+}
+.contenu2 .oui{
+    color: #0bf213;
+}
+.contenu2 .non{
+    color: red;
+}

@@ -1,0 +1,117 @@
+.jombo{
+    background: url(../images/Group2.jpg)no-repeat;
+    width: 100%;
+    height: 412px;
+    list-style-position: outside;
+}
+.jombo h1{
+    
+    color: #FFF;
+    font-family: 'Inter'sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.jombo p{
+    color: #F1EEEE;
+    font-family: 'Inter'sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.jombo a{
+    color: #F1EEEE;
+    font-family: 'Inter'sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    border:1px white solid;
+    padding: 10px;
+}
+.jombos{
+    width: 1340px;
+    height: 1000px;
+    flex-shrink: 0;
+    background: #031933;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    overflow: hidden;
+}
+.h1 p{
+    color: #F1EEEE;
+}
+input{
+    display: flex;
+    width: 648px;
+    height: 61px;
+    padding: 10px;
+    align-items: center;
+    background:url() #031933;
+    color: #F1EEEE;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    margin-bottom: 30px;
+
+}
+
+    .h1 h1 {
+    color: white;
+    font-family: 'Inter'sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+.contact p{
+    color: white;
+    font-family: 'Inter'sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+textarea{
+    background:url() #031933;
+    color: #F1EEEE;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+}
+.botton{
+    display: flex;
+    width: 648px;
+    height: 60px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background: #6C89A4;
+}
+.slider2{
+    display: flex;
+    gap: 18px;
+}
+.images{
+    background-color: aqua;
+    width: 100%;
+}
+.images img{
+    height: 616px;
+    width: 100%;
+}
+.jombo{}
+.jombo{}
+.jombo{}

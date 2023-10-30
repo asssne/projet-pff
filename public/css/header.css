@@ -1,0 +1,33 @@
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+}
+.bg-light {
+    background-color:white !important;
+  }
+.Logo{
+    width: 50px;
+    height: 50px; 
+ }
+ 
+ .navbaress{
+    margin-left: 42.6%;
+} 
+ .navbaress a:last-child{
+    color: white;
+    background-color: blue;
+    border-radius: 8px; 
+} 
+ .header .container .navbaress a:hover{
+    color: rgb(42, 5, 250);
+} 
+ .header .container .navbaress a:last-child{
+    color: rgb(253, 251, 251);
+} 
+ .header .container .navbaress a:last-child:hover{
+    color: rgb(250, 6, 6);
+    
+
+} 
+ 

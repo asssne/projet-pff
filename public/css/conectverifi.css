@@ -1,0 +1,16 @@
+.indexis{
+    display: flex;
+}
+.tout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 80px;
+    width: 1000px;
+    height: 631px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}

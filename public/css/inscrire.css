@@ -1,0 +1,130 @@
+.corps1{
+   width: 100%;
+    background: #F0EDED;
+    margin: 0px;
+    height: 1000px;
+
+}
+.corps{
+    display: flex;
+    justify-items: center;
+    width: 530px;
+    height: 520px;
+    justify-content: center;
+    margin-left: 400px;
+}
+.corps2{
+   width: 100%;
+   background-color:  #FFFAFA;
+   border-radius: 20px;
+   margin-top: 40px;
+    display: flex;
+    justify-self: start;
+    justify-content: center;
+    align-items: center;
+    align-self: start;
+
+}
+.corps3{
+   width: 420px;
+   margin-top: 40px;
+
+
+}
+.inscrire{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+}
+.input .input1{
+    padding: 10px ;
+    width: 200px;
+    background: url(../icones/user.png)no-repeat left 2px center;
+      border-radius: 8px;
+    border: 1px solid #4d4b4b;
+    outline: none;
+   
+}
+.input .input2{
+    padding: 10px;
+    width: 200px;
+    background: url(../icones/call-calling.png)no-repeat left 2px center;
+    border-radius: 8px;
+    border: 1px solid #504f4f;
+   outline: none;
+}
+.input .input3{
+    display: flex;
+    padding: 10px;
+    width: 408px;
+    background: url(../icones/smsinput.png)no-repeat left 12px center;
+    border-radius: 8px;
+    border: 1px solid #4e4d4d;
+    margin-left: 6px;
+    outline: none;
+}
+.input .input4{
+    display: flex;
+    padding: 10px;
+    width: 408px;
+    background: url(../icones/unlock.png)no-repeat left 12px center;
+    border-radius: 8px;
+    border: 1px solid #565555;
+    margin-bottom: 30px; 
+    margin-left: 6px;
+    outline: none;
+}
+
+.input .pp{
+    color: #5e5c5c;
+    font-family: 'Inter'sans-serif;
+    font-size: 12px;
+    font-style: bold;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 6px;
+
+}
+button{
+    display: flex;
+    width: 408px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: #5F46F8;
+    margin-left: 6px;
+
+   
+}
+h1{
+    color: #000;
+    font-family: 'Inter'sans-serif;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+a{
+    color: #3F13F0;
+    font-family: 'Inter'sans-serif;
+    font-size: 12px;
+    font-style: bold;
+    font-weight: 800;
+    text-decoration: none;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+.log{
+    text-align: center;
+}
+.log a{
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+.a1{
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 10px;
+
+}
+table{
+    width: 986px;
+    height: 87px;
+    flex-shrink: 0;
+    text-align: center;
+    background-color: white;
+    color: #000;
+    font-family: 'Inter'sans-serif;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 500;
+    line-height: normal;
+}
+.tete{
+    background-color: #D9D9D9;
+    height: 30px;
+}
+img{
+    margin-top: 8px;
+}
+h1{
+    color: #000;
+    text-align: center;
+    font-family: 'Inter'sans-serif;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 800;
+    line-height: normal;
+    height: 50px;
+    margin-top: 30px;
+}

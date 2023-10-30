@@ -1,0 +1,158 @@
+.banier4{
+    background: url(../images/carteap.png)no-repeat;
+    background-size: cover;
+    padding:140px;
+}
+.h11{
+    color: #fdfbfb;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+.h12{
+    color: #dedada;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+.a123{
+    margin-top: 50px;
+}
+.service11{
+    width: 100%;
+    border-radius: 8px;
+    background: #FFF;
+    width: 338px;
+    height: 426px;
+    flex-shrink: 0;
+}
+.service11 img{
+    width: 320px;
+    height: 228px;
+    flex-shrink: 0;
+    margin: 10px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.service11 h4{
+    color: #000;
+    text-align: center;
+    font-family: 'Inter'sans-serif;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 800;
+    line-height: normal;
+}
+.service11 p{
+    color: #3c3a3a;
+    text-align: center;
+    font-family: 'Inter'sans-serif;
+    font-size: 12px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: normal;
+}
+.textp{
+    color: #434242;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+.h1{
+    margin-top: 20px;
+}
+.enrrierplan{
+    border-radius: 8px;
+    background: #FFF;
+    margin-bottom: 70px;
+}
+.contactss{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 18px;
+}
+.titr{
+    color: #000;
+    font-family: 'Inter'sans-serif;
+    font-size: 24px;
+    font-style: bold;
+    font-weight: 800;
+    margin-top: 24px;
+    line-height: normal;
+    margin-top: 620px;
+    text-align: center;
+    margin-left: 18px;
+
+    
+}
+.botton{
+    display: flex;
+    width: 550px;
+    height: 60px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background: #6C89A4;
+    margin-bottom: 30px;
+    color: #000;
+    font-family: 'Inter'sans-serif;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 18px;
+}
+input{
+    display: flex;
+    width: 550px;
+    height: 61px;
+    padding: 10px;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #5d5d5d;
+    margin-left: 18px;
+    outline: none;
+}
+textarea{
+    margin-left: 18px;
+    outline: none;
+
+}
+.po {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: #000;
+    font-family: 'Inter'sans-serif;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 18px;
+  }
+  .images{  
+    width: 506px;
+    margin-right: 18px;
+  }
+  .images img{
+    width: 100%;
+    height: 576px;
+    margin-top: 34px;
+    border: 2px solid rgb(135, 135, 224);
+  }
+.paragraf{
+    padding-top: 18px;
+    margin: 18px;
+}
